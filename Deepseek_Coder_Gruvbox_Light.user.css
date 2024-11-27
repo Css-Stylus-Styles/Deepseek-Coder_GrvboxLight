@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Deepseek Interface Light interface 
 @namespace      github.com/openstyles/stylus
-@version        1.0.0
+@version        1.0.2
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -583,6 +583,7 @@
 	P{
 		font-size: 0.81rem !important ; 
 	font-family: "Literata Variable" !important ;
+		color : #282828 !important ; 
 	}
 	
 	
@@ -863,8 +864,24 @@
 	
 	
 	
+	/*Move down the chat button -> Chat page */
+	
+	.da779868 {
+    pointer-events: all;
+    color: #f9f5d7 !important;
+    cursor: pointer;
+    background-color: #ffd29c !important;
+    border-radius: 50%;
+	border: solid 2px #5c7b42 !important ; 
+}
 	
 	
+	/*chat side bar button gradient */
+	/*Color of the gradient changed for now -> can also be set to transparent to turn off */
+	[data-ds-dark-theme] .fdcbf3c6.d61f6696 .ad46f9c1, [data-ds-dark-theme] .fdcbf3c6:hover .ad46f9c1 {
+    opacity: 1;
+    background: linear-gradient(90deg,rgba(66,68,81,0) 0%,#f2e5bc 60%,#d5c4a1 100%);
+}
 	
 	
 	
